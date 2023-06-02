@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "domestic-market-blow-molding"
+version = "0.1.0"
+description = ""
+authors = ["ge0rgeth0mas <georgethomas1912@gmail.com>"]
+readme = "README.md"
+packages = [{include = "domestic_market_blow_molding"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.0.2"
+numpy = "^1.24.3"
+matplotlib = "^3.7.1"
+seaborn = "^0.12.2"
+sklearn = "^0.0.post5"
+openpyxl = "^3.1.2"
+statsmodels = "^0.14.0"
+pmdarima = "^2.0.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.23.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
