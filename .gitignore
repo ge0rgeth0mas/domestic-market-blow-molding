@@ -1,2 +1,4 @@
 poetry.lock
 tests/
+domestic_market_blow_molding/modeling/model1/
+domestic_market_blow_molding/modeling/univariate_LSTM_modeling_temp.ipynb

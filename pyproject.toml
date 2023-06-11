@@ -7,15 +7,18 @@ readme = "README.md"
 packages = [{include = "domestic_market_blow_molding"}]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "3.9.16"
 pandas = "^2.0.2"
-numpy = "^1.24.3"
 matplotlib = "^3.7.1"
 seaborn = "^0.12.2"
 sklearn = "^0.0.post5"
 openpyxl = "^3.1.2"
 statsmodels = "^0.14.0"
 pmdarima = "^2.0.3"
+numpy = "<1.24"
+tensorflow-macos = "^2.12.0"
+
+
 
 
 [tool.poetry.group.dev.dependencies]
